@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>activity_main.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000; font-style: italic;}
+.s1 { color: #0000ff; font-weight: bold;}
+.s2 { color: #000000;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #000080; font-weight: bold;}
+.ln { color: #999999; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_main.xml</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s3">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s3">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<a name="l2"><span class="ln">2    </span></a>&lt;<span class="s4">androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s3">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+<a name="l3"><span class="ln">3    </span></a>    <span class="s1">xmlns:app</span><span class="s3">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+<a name="l4"><span class="ln">4    </span></a>    <span class="s1">xmlns:tools</span><span class="s3">=&quot;http://schemas.android.com/tools&quot;</span>
+<a name="l5"><span class="ln">5    </span></a>    <span class="s1">android:layout_width</span><span class="s3">=&quot;match_parent&quot;</span>
+<a name="l6"><span class="ln">6    </span></a>    <span class="s1">android:layout_height</span><span class="s3">=&quot;match_parent&quot;</span>
+<a name="l7"><span class="ln">7    </span></a>    <span class="s1">tools:context</span><span class="s3">=&quot;.MainActivity&quot;</span>&gt;
+<a name="l8"><span class="ln">8    </span></a>    &lt;<span class="s4">ScrollView</span>
+<a name="l9"><span class="ln">9    </span></a>        <span class="s1">android:id</span><span class="s3">=&quot;@+id/SCROLLER_ID&quot;</span>
+<a name="l10"><span class="ln">10   </span></a>        <span class="s1">android:layout_width</span><span class="s3">=&quot;fill_parent&quot;</span>
+<a name="l11"><span class="ln">11   </span></a>        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+<a name="l12"><span class="ln">12   </span></a>        <span class="s1">android:scrollbars</span><span class="s3">=&quot;vertical&quot;</span>
+<a name="l13"><span class="ln">13   </span></a>        <span class="s1">android:fillViewport</span><span class="s3">=&quot;true&quot;</span>&gt;
+<a name="l14"><span class="ln">14   </span></a>    &lt;<span class="s4">TextView</span>
+<a name="l15"><span class="ln">15   </span></a>        <span class="s1">android:id</span><span class="s3">=&quot;@+id/h&quot;</span>
+<a name="l16"><span class="ln">16   </span></a>        <span class="s1">android:layout_width</span><span class="s3">=&quot;wrap_content&quot;</span>
+<a name="l17"><span class="ln">17   </span></a>        <span class="s1">android:layout_height</span><span class="s3">=&quot;wrap_content&quot;</span>
+<a name="l18"><span class="ln">18   </span></a>        <span class="s1">android:background</span><span class="s3">=&quot;@color/teal_200&quot;</span>
+<a name="l19"><span class="ln">19   </span></a>        <span class="s1">android:text</span><span class="s3">=&quot;Sneha!You can edit view attributes from the Attributes window on the right side of the Layout Editor. This window is available only when the design editor is open, so be sure you're using either Design or Split mode to view your layout. 
+<a name="l20"><span class="ln">20   </span></a> 
+<a name="l21"><span class="ln">21   </span></a>When you select a view, whether by clicking the view in the Component Tree or in the design editor, the Attributes window shows the following, as indicated in figure 3: 
+<a name="l22"><span class="ln">22   </span></a> 
+<a name="l23"><span class="ln">23   </span></a>The Declared Attributes section lists attributes specified in the layout file. To add an attribute, click the Add add attribute button button at the top right of the section. 
+<a name="l24"><span class="ln">24   </span></a>The Layout section contains controls for the width and height of the view. If the view is in a ConstraintLayout, this section also shows constraint bias and lists the constraints that the view uses. For more information on working with ConstraintLayout, see Build a Responsive UI with ConstraintLayout. 
+<a name="l25"><span class="ln">25   </span></a>The Common Attributes section lists common attributes for the selected view. To see all available attributes, expand the All Attributes section at the bottom of the window. 
+<a name="l26"><span class="ln">26   </span></a>Click the Search button to search for a specific view attribute. 
+<a name="l27"><span class="ln">27   </span></a>The icons to the right of each attribute value indicate whether the attribute values are resource references. These indicators are solid solid indicator icon when the value is a resource reference and empty empty indicator icon when the value is hard-coded. These indicators help you recognize hard-coded values at a glance. Clicking indicators in either state opens the Resources dialog window where you can select a resource reference for the corresponding attribute. 
+<a name="l28"><span class="ln">28   </span></a>A red highlight around an attribute value indicates an error with the value. An error might indicate an invalid entry for a layout-defining attribute, as shown in the red highlight in figure 3. 
+<a name="l29"><span class="ln">29   </span></a> 
+<a name="l30"><span class="ln">30   </span></a>An orange highlight indicates a warning for the value. A warning might appear when you use a hard-coded value where a resource reference is expected, for example.&quot;</span>
+<a name="l31"><span class="ln">31   </span></a>        <span class="s1">android:textAllCaps</span><span class="s3">=&quot;true&quot;</span>
+<a name="l32"><span class="ln">32   </span></a>        <span class="s1">android:textSize</span><span class="s3">=&quot;50sp&quot;</span>
+<a name="l33"><span class="ln">33   </span></a>        <span class="s1">android:textStyle</span><span class="s3">=&quot;italic&quot;</span>
+<a name="l34"><span class="ln">34   </span></a>        <span class="s1">android:scrollbarAlwaysDrawVerticalTrack</span><span class="s3">=&quot;true&quot;</span>
+<a name="l35"><span class="ln">35   </span></a>        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s3">=&quot;parent&quot;</span>
+<a name="l36"><span class="ln">36   </span></a>        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s3">=&quot;0.0&quot;</span>
+<a name="l37"><span class="ln">37   </span></a>        <span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s3">=&quot;parent&quot;</span>
+<a name="l38"><span class="ln">38   </span></a>        <span class="s1">app:layout_constraintRight_toRightOf</span><span class="s3">=&quot;parent&quot;</span>
+<a name="l39"><span class="ln">39   </span></a>        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s3">=&quot;parent&quot;</span>
+<a name="l40"><span class="ln">40   </span></a>        <span class="s1">app:layout_constraintVertical_bias</span><span class="s3">=&quot;0.048&quot; </span>/&gt;
+<a name="l41"><span class="ln">41   </span></a>    &lt;/<span class="s4">ScrollView</span>&gt;
+<a name="l42"><span class="ln">42   </span></a>
+<a name="l43"><span class="ln">43   </span></a>
+<a name="l44"><span class="ln">44   </span></a>&lt;/<span class="s4">androidx.constraintlayout.widget.ConstraintLayout</span>&gt;</pre>
+</body>
+</html>
